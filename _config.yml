@@ -1,0 +1,16 @@
+theme: hexo-theme-Claudia  # 指定主题
+
+language: zh-CN  # 指定语言，会影响主题显示的语言，按需修改
+
+url: https://swordrada.github.io
+
+root: /public
+
+comment_utteranc:
+  enable: true
+  repo: swordrada/swordrada.github.io
+
+deploy:
+  type: git
+  repo: https://github.com/swordrada/swordrada.github.io
+  branch: main
